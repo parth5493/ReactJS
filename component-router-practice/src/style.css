@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.home_sec{
+    background-image: url(./Image/Home_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 150px 0;
+}
+.nav_align{
+    padding: 60px 0;
+}
+.row{
+    display: flex;
+}
+.home_jsc{
+    justify-content: space-between;
+}
+.home_links ul li{
+    display: inline-block;
+}
+.logo h2{
+    padding: 0 0 0 80px;
+    color: white;
+    font-weight: 600;
+}
+.home_links ul li a{
+    color: white;
+    font-weight: 600;
+    padding: 0 75px 0 0;
+}
+.home_h1 h1{
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+    padding: 80px 0 0 0;
+}
+.home_p p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 37%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
+.home_btn{
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.home_btn ul li a button{
+    background-color: #f6d365;
+    font-size: 15px;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+    border: #f6d365 solid 1px;
+    padding: 10px 40px;
+}
+.home_div_align{
+    padding: 0 0 80px 0;
+}
+
+/* Sec2 CSS */
+
+.sec2{
+    background-color: #f6d365;
+    padding: 0 0 100px 0;
+}
+.sec2_h2 h2{
+    font-size: 35px;
+    color: #333333;
+    text-align: center;
+    padding: 70px 0 0 0;
+}
+.sec2_p p{
+    color: #333333;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+.sec2_jsc{
+    justify-content: center;
+    column-gap: 15px;
+    padding: 30px 0 0 0;
+}
+.col-25{
+    width: 25%;
+}
+.col-25_p1 p{
+    color: #333333;
+    font-size: 15px;
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 700;
+}
+.col-25_h2 h2{
+    color: #333333;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-weight: 600;
+}
+.col-25_p2 p{
+    color: #333333;
+    font-size: 15px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
