@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "email": "hiralparth44@gmail.com",
+      "fullName": "PARTHKUMAR AJAYKUMAR PATEL",
+      "username": "parthhiral",
+      "password": "Sairam@44",
+      "roll_id": 1,
+      "id": 16
+    },
+    {
+      "email": "qwe",
+      "fullName": "qwe",
+      "username": "qwe",
+      "password": "qwe",
+      "roll_id": 2,
+      "id": 32
+    },
+    {
+      "email": "qwe",
+      "fullName": "zxc",
+      "username": "qwe",
+      "password": "zxc",
+      "roll_id": 2,
+      "id": 33
+    },
+    {
+      "email": "zxc",
+      "fullName": "zxc",
+      "username": "zxc",
+      "password": "zxc",
+      "roll_id": 2,
+      "id": 34
+    },
+    {
+      "email": "123",
+      "fullName": "hp",
+      "username": "123",
+      "password": "hp",
+      "roll_id": 2,
+      "id": 35
+    }
+  ]
+}

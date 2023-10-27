@@ -1,0 +1,32 @@
+.users_charts{
+    background:linear-gradient(45deg,#321fdb,#1f1498);
+}
+
+.users_col{
+    background:linear-gradient(45deg,#321fdb,#1f1498);
+    color: antiquewhite;
+}
+/* .charts_align{
+    column-gap: 10px;
+} */
+.users_chart_semibold{
+    font-size: 15px;    
+} 
+.users_chart_normal{
+    font-size: 10px;
+}
+.income_chart_semibold{
+    font-size: 21px; 
+}
+.income_col{
+    background: linear-gradient(45deg,#39f,#2982cc);
+    color: antiquewhite;
+}
+.conversion_col{
+    background: linear-gradient(45deg,#f9b115,#f6960b);
+    color: antiquewhite;
+}
+.sessions_col{
+    background: linear-gradient(45deg,#e55353,#d93737);
+    color: antiquewhite;
+}

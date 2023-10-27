@@ -1,0 +1,26 @@
+/* Common CSS STRATs*/
+.a{
+    text-decoration: none;
+    list-style: none;
+}
+.sidebar a{
+    color: wheat;
+}
+.sidebar_head h5{
+    color: wheat;
+}
+
+/* Common CSS ENDs*/
+
+/* UserUpdate CSS */
+.updatecomplete{
+    width: 50%;
+    height: 65%;
+    background-color: rgb(233, 139, 104);
+    color: #2d3025;
+    border: rgb(233, 139, 104) 1px solid;
+    font-size: 30px;
+    top: 78px;
+    left: 20px;
+    /* z-index: 1; */
+  }

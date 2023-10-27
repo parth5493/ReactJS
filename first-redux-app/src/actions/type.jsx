@@ -1,0 +1,6 @@
+export const RETRIVE_ALL_USERS = "RETRIVE_ALL_USERS";
+export const RETRIVE_LOGIN_USERS = "RETRIVE_LOGIN_USERS";
+export const REGISTER_USERS = "REGISTER_USERS";
+export const DELETE_USERS = "DELETE_USERS";
+export const PATCH_USERS = "PATCH_USERS";
+export const PUT_USERS = "PUT_USERS";

@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "email": "hiralparth44@gmail.com",
+      "fullName": "PARTHKUMAR AJAYKUMAR PATEL",
+      "username": "parthhiral",
+      "password": "Sairam@44",
+      "roll_id": 1,
+      "id": 1
+    }
+  ]
+}

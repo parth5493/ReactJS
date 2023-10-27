@@ -1,0 +1,62 @@
+/* NAVBAR CSS STARTS*/
+.nav_body{
+    background-color: rgb(253, 250, 250);
+}
+
+.nav_links{
+    color: rgb(88, 71, 71);
+    font-size: 13px;
+}
+
+.nav_font i{
+    color: rgb(65, 53, 53);
+    font-size: 17px;
+}
+
+/* NAVBAR CSS ENDS*/
+
+/* FIRST SLIDER CSS STARTS*/
+
+.first_font{
+    font-size: 8px;
+}
+
+/* FIRST SLIDER CSS ENDS*/
+
+/* SECTION CSS STARTS*/
+
+.section_body{
+    background-color: rgb(253, 250, 250);
+}
+
+/* FIRST SUBSECTION CSS STARTS */
+.help_image{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.first_subsection_fontone{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.first_subsection_fontsecond{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.help_font{
+    color: black;
+    font-weight: 500;
+    padding: 0;
+}
+
+.apple_store{
+    font-size: 30px;
+    color: black;
+}
+
+/* FIRST SUBSECTION CSS STARTS */
+
+/* SECTION CSS ENDS*/

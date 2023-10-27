@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.home_bg{
+    background-image: url(./PSD/Image/Home_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 150px 0;
+}
+.nav_align{
+    padding: 50px 0;
+}
+.row{
+    display: flex;
+}
+.row_jsc{
+    justify-content: space-between;
+}
+.home_links ul li{
+    display: inline-block;
+}
+.home_links ul li a{
+    color: white;
+    padding: 0 0 0 150px;
+    font-weight: 600;
+}
+.searchbar{
+    padding: 0 80px 0 0;
+}
+.searchbar input{
+    border-radius: 10px;
+    border: solid 1px white;
+    padding: 3px 1px;
+}
+.h2, .h2_2{
+    color: white;
+    font-size: 30px;
+    text-align: center
+}
+.h2{
+    padding: 150px 0 0 0;
+}
+.h2_2{
+    padding: 40px 0 0 0;
+}
+.p{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
+.jsc_btn{
+    justify-content: center;
+    column-gap: 80PX;
+    padding: 60px 0 0 0;
+}
+.btn1 ul li a button, .btn2 ul li a button{
+    color: white;
+    background-color: blue;
+    padding: 4px 8px;
+    font-weight: 600;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #070d38;
+    padding: 80px 0;
+}
+.col-33{
+    width: 30%;
+}
+.footer_jsc{
+    justify-content: center;
+    column-gap: 5px;
+}
+.icon p, .tel_number p{
+    color: white;
+    text-align: center;
+}
+.tel_number p{
+    padding: 20px 0 0 0;
+}
