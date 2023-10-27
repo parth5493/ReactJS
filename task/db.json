@@ -1,0 +1,137 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "adminActivity": [
+    {
+      "time": "7/29/2023, 9:47:51 PM",
+      "msg": "Clicked on Edit for customer with ID 30",
+      "detailedMsg": {
+        "name": "kaushik333",
+        "email": "ka001@gmile.com",
+        "publicIp": [
+          {
+            "ip": "1.2.3.4",
+            "tag": "khgf"
+          }
+        ],
+        "customerid": "HCF5566"
+      },
+      "id": 1
+    },
+    {
+      "time": "7/29/2023, 9:47:56 PM",
+      "msg": "Clicked on Edit for customer with ID 3",
+      "detailedMsg": {
+        "name": "Emily Brown",
+        "email": "emily.brown@example.com",
+        "publicIp": [
+          {
+            "ip": "192.168.2.1",
+            "tag": "Home"
+          },
+          {
+            "ip": "192.168.2.4",
+            "tag": "Work"
+          }
+        ],
+        "customerid": "CUST303"
+      },
+      "id": 2
+    }
+  ],
+  "user": [
+    {
+      "email": "hiralparth44@gmail.com",
+      "fullName": "PARTHKUMAR AJAYKUMAR PATEL",
+      "username": "parthhiral",
+      "password": "Sairam@44",
+      "roll_id": 1,
+      "id": 0
+    },
+    {
+      "": "abc",
+      "roll_id": 2,
+      "id": 1
+    },
+    {
+      "": "abc@gmail.com",
+      "roll_id": 2,
+      "id": 2
+    },
+    {
+      "": "qwe",
+      "roll_id": 2,
+      "id": 3
+    },
+    {
+      "username": "zxc",
+      "email": "zxc@test.ca",
+      "password": "zxc",
+      "roll_id": 2,
+      "id": 4
+    },
+    {
+      "username": "zxc",
+      "email": "zxc@test.ca",
+      "password": "zxc",
+      "roll_id": 2,
+      "id": 5
+    },
+    {
+      "username": "hp",
+      "email": "hp@test.ca",
+      "password": "hp",
+      "roll_id": 2,
+      "id": 6
+    },
+    {
+      "roll_id": 2,
+      "id": 7
+    },
+    {
+      "roll_id": 2,
+      "id": 8
+    },
+    {
+      "username": "kl",
+      "email": "kl@test.ca",
+      "password": "kl",
+      "roll_id": 2,
+      "id": 9
+    },
+    {
+      "username": "qwer",
+      "email": "qwer@test.ca",
+      "password": "qwer",
+      "roll_id": 2,
+      "id": 10
+    },
+    {
+      "roll_id": 2,
+      "id": 11
+    },
+    {
+      "roll_id": 2,
+      "id": 12
+    },
+    {
+      "roll_id": 2,
+      "id": 13
+    }
+  ]
+}

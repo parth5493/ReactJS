@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "8e2bc069-9878-4cc1-a59c-672accfc099a",
+		"name": "APIMethods",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29491960"
+	},
+	"item": [
+		{
+			"name": "GetDatabyGETMethod",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostDatabyPOSTMethod",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n      \"email\": \"parthwedshiral@gmail.com\",\r\n      \"fullName\": \"PARTHKUMAR AJAYKUMAR PATEL\",\r\n      \"Username\": \"parthhiral\",\r\n      \"Password\": \"Hiral@44\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETdatabyIDUsingQyeryString",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/user?id=17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "17"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch_SelectIDby(/)_PatchMethod Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/user/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"user",
+						"17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update_Selectby(/)_PUT_Method",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"parthwedshiral@gmail.com\",\r\n    \"fullName\": \"PARTHKUMAR AJAYKUMAR PATEL\",\r\n    \"Username\": \"parthhiral44\",\r\n    \"Password\": \"Hiral@44\",\r\n    \"id\": 17\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/user/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"user",
+						"17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteDatabyDELETEMethod",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/user/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"user",
+						"17"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

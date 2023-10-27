@@ -1,0 +1,171 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "title": "test",
+      "author": "Checking",
+      "id": 7
+    },
+    {
+      "title": "test",
+      "author": "Checking",
+      "id": 8
+    },
+    {
+      "title": "test",
+      "author": "Checking",
+      "id": 9
+    },
+    {
+      "title": "test",
+      "author": "Checking",
+      "id": 10
+    },
+    {
+      "title": "test",
+      "author": "Checking",
+      "id": 11
+    },
+    {
+      "email": "parthp808@gmail.com",
+      "fullName": "HIRALKUMARI PARTHKUMAR PATEL",
+      "Username": "papatel25",
+      "Password": "Parth@541993",
+      "id": 12
+    },
+    {
+      "email": {
+        "email": "parthp808@gmail.com"
+      },
+      "id": 13
+    },
+    {
+      "email": {
+        "email": "parthp808@gmail.com"
+      },
+      "id": 14
+    },
+    {
+      "email": "venishpatel444@gmail.com",
+      "fullName": "Venish Mukeshbhai Patel",
+      "Username": "venupatel",
+      "Password": "Parth@541993",
+      "id": 15
+    },
+    {
+      "email": "venishpatel444@gmail.com",
+      "fullName": "Venish Mukeshbhai Patel",
+      "Username": "venupatel",
+      "Password": "Parth@541993",
+      "id": 16
+    },
+    {
+      "email": "parthp808@gmail.com",
+      "fullName": "HIRALKUMARI PARTHKUMAR PATEL",
+      "Username": "vkhsdjghsdjad",
+      "Password": "klfhefhwekfh",
+      "id": 17
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": [
+    {
+      "email": "hiralparth44@gmail.com",
+      "fullName": "PARTHKUMAR AJAYKUMAR PATEL",
+      "username": "parthhiral",
+      "password": "Sairam@44",
+      "roll_id": 1,
+      "id": 16
+    },
+    {
+      "email": "abc",
+      "fullName": "abc",
+      "username": "abc",
+      "password": "abc",
+      "roll_id": 2,
+      "id": 17
+    },
+    {
+      "email": "qwe",
+      "fullName": "qwe",
+      "username": "qwe",
+      "password": "qwe",
+      "roll_id": 2,
+      "id": 18
+    },
+    {
+      "email": "hiral",
+      "fullName": "hiral",
+      "username": "hiral",
+      "password": "hira;",
+      "roll_id": 2,
+      "id": 19
+    },
+    {
+      "email": "zxc",
+      "fullName": "zxc",
+      "username": "zxc",
+      "password": "zxc",
+      "roll_id": 2,
+      "id": 20
+    },
+    {
+      "fullName": "op",
+      "username": "ps",
+      "password": "op",
+      "roll_id": 2,
+      "id": 21,
+      "email": "ps"
+    },
+    {
+      "fullName": "op",
+      "username": "op",
+      "password": "op",
+      "roll_id": 2,
+      "id": 22
+    },
+    {
+      "fullName": "op",
+      "username": "op",
+      "password": "op",
+      "roll_id": 2,
+      "id": 23
+    },
+    {
+      "email": "poi",
+      "fullName": "poi",
+      "username": "poi",
+      "password": "poi",
+      "roll_id": 2,
+      "id": 27
+    }
+  ]
+}

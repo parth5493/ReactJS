@@ -1,0 +1,250 @@
+/* COMMON CSS STARTS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* COMMON CSS ENDS */
+
+/* MAIN CSS STARTS */
+
+.row{
+    display: flex;
+}
+.nav_align{
+    padding: 30px 0;
+}
+.nav1_jsc{
+    justify-content: space-between;
+}
+.col-10{
+    width: 10%;
+}
+.logo h2{
+    color: rgb(212, 60, 60);
+    text-align: center;
+    padding: 0 0 0 20px;
+}
+.col-90{
+    width: 85%;
+    background-color:  rgb(212, 60, 60);
+}
+.nav2_jsc{
+    justify-content: space-around;
+}
+.col-80{
+    width: 70%;
+}
+.home_links{
+   display: flex;
+   justify-content: center;
+   padding: 0 0 0 100px;
+}
+.home_links ul li{
+    display: inline-block;
+    padding: 10px 0;
+}
+.home_links ul li a{
+    font-size: 25px;
+    color: white;
+    padding: 0 0 0 30px;
+}
+.col-20{
+    width: 30%;
+}
+.home_social{
+    display: flex;
+    justify-content: right;
+    padding: 0 25px 0 0;
+}
+.home_social ul li{
+    display: inline-block;
+    padding: 20px 0;
+}
+.home_social ul li a i{
+   color: white;
+   padding: 0 10px 0 0;
+}
+.home_sec2{
+    background-image: url(./Image/home_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home_sec2_align{
+    padding: 150px 0;
+}
+
+/* ABOUT CSS STARTS */
+
+.about_sec{
+    padding: 20px 0 60px 0;
+}
+.about_sec1{
+    background-color:  rgb(212, 60, 60);
+    width: 90%;
+    margin: 0 auto;
+}
+.about_h2 h2{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    padding: 80px 0 0 0;
+}
+.about_p p{
+    color:  white;
+    font-size: 23px;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    padding: 30px 0 80px 0;
+}
+.about_sec2{
+    width: 90%;
+    padding: 0 0 50px 0;
+}
+.about_sec2_jsc{
+    justify-content: center;
+    column-gap: 5px;
+}
+.col-30{
+    width: 30%;
+}
+.about_sec2_img h2{
+    color: rgb(212, 60, 60);
+    font-size: 30px;
+    text-align: center;
+    padding: 100px 0;
+}
+.col-50{
+    width: 50%;
+}
+.about_sec2_h2 h2{
+    color: rgb(212, 60, 60);
+    font-size: 30px;
+    padding: 100px 0 0 0;
+}
+.about_sec2_p p{
+    font-size: 24px;
+    padding: 10px 0 0 0;
+}
+
+/* ABOUT CSS ENDS */
+
+/* MENU CSS STARTS */
+
+.menu_sec1{
+    background-image: url(./Image/menu_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu_sec1_h1{
+    display: flex;
+    justify-content: right;
+}
+.menu_sec1_h1 h1{
+    color: white;
+    font-size: 100px;
+    padding: 150px 100px 150px 0;
+}
+.menu_sec1_align{
+    padding: 50px 0;
+}
+.menu_sec2{
+    background-image: url(./Image/menu_img1.png);
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.menu_sec2_align{
+    margin: 80px 0 0 0;
+    padding: 150px 0;
+}
+.menu_sec2_align2{
+    padding: 50px 0;
+}
+.menu_sec3{
+    width: 70%;
+    margin: 0 auto;
+}
+.menu_sec3_jsc{
+    justify-content: space-between;
+}
+.col-30{
+    width: 50%;
+    padding: 30px 0 0 0;
+}
+.menu_sec3_cart1_h2 h2{
+    color: rgb(212, 60, 60);
+    font-size: 30px;
+}
+.menu_sec3_cart1_p p{
+    padding: 20px 0 0 0;
+}
+.menu_sec3_cart1_align{
+    text-align: right;
+}
+.menu_sec4{
+    background-image: url(./Image/menu_img2.png);
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.menu_sec5{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+
+/* MENU CSS ENDS */
+
+/* CONTACT CSS STARTS */
+
+.contact_sec{
+    background-color:  rgb(212, 60, 60);
+}
+.contact_a{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 0 0;
+}
+.contact_a ul li a{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 80px 0 0 0;
+}
+.contact_social{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+.contact_social ul li{
+    display: inline-block;
+}
+.contact_social ul li a i{
+    color: white;
+    font-size: 25px;
+    padding: 0 0 0 20px;
+}
+.contact_phone{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 80px 0;
+}
+.contact_phone ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 0 0 0 30px;
+}

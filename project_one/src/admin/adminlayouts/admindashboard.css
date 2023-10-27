@@ -1,0 +1,14 @@
+/* Common CSS STRATs*/
+.a{
+    text-decoration: none;
+    list-style: none;
+}
+.sidebar a{
+    color: wheat;
+}
+.sidebar_head h5{
+    color: wheat;
+}
+
+/* Common CSS ENDs*/
+

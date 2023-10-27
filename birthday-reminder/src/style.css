@@ -1,0 +1,29 @@
+.box_size{
+    width: 30%;
+}
+.container_color {
+    background-color: white;
+}
+.listscss li{
+    display: flex;
+}
+.listscss img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.listscss .name_align{
+    color: black;
+    padding: 10px 0 0 10px;
+}
+.listscss .age_align{
+    padding: 0 0 0 10px;
+}
+.btn_width{
+    width: 100%;
+    background-color: rgb(219, 61, 114);
+    border: 1px solid rgb(219, 61, 114);
+    border-radius: 5px;
+    color: white;
+}
